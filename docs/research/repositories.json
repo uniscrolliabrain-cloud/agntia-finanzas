@@ -1,0 +1,66 @@
+{
+  "observed_on": "2026-11-13",
+  "reference_is_production_pin": false,
+  "repositories": [
+    {
+      "repository": "frappe/erpnext",
+      "reference_sha": "649786f48b63c8edd6a674a92c409e50b126235a",
+      "branch": "develop",
+      "metadata_license": "GPL-3.0",
+      "read_path": "README.md",
+      "read_blob_sha": "bb7a8bc2c33033e506dc5c15469aaacfe31ceee5",
+      "scope": "Metadata and first90–100 README lines; not code audit/install/runtime verification",
+      "license_review": null,
+      "runtime_verified": false
+    },
+    {
+      "repository": "beancount/beancount",
+      "reference_sha": "9747213802acb733ce53acc6e963f5961f47d6cd",
+      "branch": "master",
+      "metadata_license": "GPL-2.0",
+      "read_path": "README.rst",
+      "read_blob_sha": "fd85c3e1837375e0aa6ac95d7deacb7dbb30d6df",
+      "scope": "Metadata and first90–100 README lines; not code audit/install/runtime verification",
+      "license_review": null,
+      "runtime_verified": false
+    },
+    {
+      "repository": "hledgerorg/hledger",
+      "reference_sha": "ce61d7e539eb4e90eb8eeecf66293c4c469d35ea",
+      "branch": "main",
+      "metadata_license": "GPL-3.0",
+      "read_path": "README.md",
+      "read_blob_sha": "b81bb7142e77650273ac275756c1feb208cc731a",
+      "scope": "Metadata and first90–100 README lines; not code audit/install/runtime verification",
+      "license_review": null,
+      "runtime_verified": false
+    },
+    {
+      "repository": "Actualbudget/actual",
+      "reference_sha": "f5f06896c228522d6f09ed8b43828d8dec5931f4",
+      "branch": "master",
+      "metadata_license": "MIT",
+      "read_path": "README.md",
+      "read_blob_sha": "57e95060c5009be43140f4140eaf8c3d170a4a79",
+      "scope": "Metadata and first90–100 README lines; not code audit/install/runtime verification",
+      "license_review": null,
+      "runtime_verified": false
+    },
+    {
+      "repository": "metabase/metabase",
+      "reference_sha": "d6833222251a31ccfe71d375b9302a9542135a3d",
+      "branch": "master",
+      "metadata_license": "NOASSERTION",
+      "read_path": "README.md",
+      "read_blob_sha": "12690b76f4dc12ac30f1ecc442c4ce3019c26588",
+      "scope": "Metadata and first90–100 README lines; not code audit/install/runtime verification",
+      "license_review": {
+        "path": "LICENSE.txt",
+        "blob_sha": "f3a3c334cae8a5ea53c431ae31d12107dac94012",
+        "scope": "Selective source/license read, no complete dependencies/models/edition legal review"
+      },
+      "runtime_verified": false
+    }
+  ],
+  "license_notes": "ERPNext GPL-3.0, hledger GPL-3.0 y Beancount GPL-2.0 según metadatos/README deben evaluarse por módulo/distribución. Actual MIT es referencia de presupuesto, no ERP/tesorería empresarial completo. Metabase combina AGPL y Enterprise comercial; un dashboard multiempresa necesita aislamiento de consulta/embedding probado, no una colección con nombre distinto."
+}

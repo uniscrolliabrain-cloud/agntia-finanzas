@@ -1,0 +1,226 @@
+{
+  "observed_on": "2026-11-13",
+  "method": "Selective primary-source abstracts/official docs/vendor announcements and pinned repository metadata/README/license reads; no runtime or benchmarks",
+  "sources": [
+    {
+      "id": "H01",
+      "type": "parent_code",
+      "title": "agente: contratos inspeccionados por SHA",
+      "url": "https://github.com/uniscrolliabrain-cloud/agente/tree/54b8d5407a8576459448c4d059a877297d18ca7a",
+      "observed_on": "2026-11-13",
+      "scope": "Mapa heredado de31archivos más6nuevas lecturas selectivas. Main cotejado13noviembre; no auditoría exhaustiva, tests o cambios.",
+      "access_status": "OBSERVED_CODE",
+      "runtime_verified": false,
+      "benchmark_reproduced": false
+    },
+    {
+      "id": "P01",
+      "type": "paper",
+      "title": "MBABench-2.0",
+      "url": "https://arxiv.org/abs/2610.31711",
+      "observed_on": "2026-11-13",
+      "scope": "Abstract/versiones disponibles consultados, no reproducción; inferencia de diseño: Exactitud, auditabilidad y mantenibilidad del workbook se evalúan por separado; no basta una celda final.",
+      "access_status": "SELECTIVE_READ",
+      "runtime_verified": false,
+      "benchmark_reproduced": false
+    },
+    {
+      "id": "P02",
+      "type": "paper",
+      "title": "BlueFin",
+      "url": "https://arxiv.org/abs/2605.30907",
+      "observed_on": "2026-11-13",
+      "scope": "Abstract/versiones disponibles consultados, no reproducción; inferencia de diseño: Probar corrección dinámica de fórmulas y sensibilidad de escenarios además de los valores cacheados.",
+      "access_status": "SELECTIVE_READ",
+      "runtime_verified": false,
+      "benchmark_reproduced": false
+    },
+    {
+      "id": "P03",
+      "type": "paper",
+      "title": "Hedge-Bench",
+      "url": "https://arxiv.org/abs/2606.03918",
+      "observed_on": "2026-11-13",
+      "scope": "Abstract/versiones disponibles consultados, no reproducción; inferencia de diseño: Forecast con información congelada y cobertura; no convertir este benchmark de mercados en asesoramiento de inversión o score del producto.",
+      "access_status": "SELECTIVE_READ",
+      "runtime_verified": false,
+      "benchmark_reproduced": false
+    },
+    {
+      "id": "V01",
+      "type": "vendor_primary",
+      "title": "Anaplan",
+      "url": "https://www.anaplan.com/news/anaplan-introduces-the-agentic-enterprise/",
+      "observed_on": "2026-11-13",
+      "scope": "Planificación conectada, agentes de análisis y gobierno; no disponibilidad/precio garantizados. Fuente comercial/regulatoria selectiva, no prueba de producto; no heredar certificaciones/precios.",
+      "access_status": "DOCUMENTED_NOT_TESTED",
+      "runtime_verified": false,
+      "benchmark_reproduced": false
+    },
+    {
+      "id": "V02",
+      "type": "vendor_primary",
+      "title": "Pigment",
+      "url": "https://kb.pigment.com/docs/pigment-ai",
+      "observed_on": "2026-11-13",
+      "scope": "Patrón de modelos/boards/contexto y revisión de escenarios; API de instalación pendiente. Fuente comercial/regulatoria selectiva, no prueba de producto; no heredar certificaciones/precios.",
+      "access_status": "DOCUMENTED_NOT_TESTED",
+      "runtime_verified": false,
+      "benchmark_reproduced": false
+    },
+    {
+      "id": "V03",
+      "type": "vendor_primary",
+      "title": "Workday Adaptive",
+      "url": "https://www.workday.com/en-us/products/adaptive-planning/overview.html",
+      "observed_on": "2026-11-13",
+      "scope": "Patrón FP&A y planificación; no reconstruir nómina o consolidación reglada por nombrarlo. Fuente comercial/regulatoria selectiva, no prueba de producto; no heredar certificaciones/precios.",
+      "access_status": "DOCUMENTED_NOT_TESTED",
+      "runtime_verified": false,
+      "benchmark_reproduced": false
+    },
+    {
+      "id": "S01",
+      "type": "security_or_law_primary",
+      "title": "Supabase JWT",
+      "url": "https://supabase.com/docs/guides/auth/jwts",
+      "observed_on": "2026-11-13",
+      "scope": "Verificación/claims/JWKS; sin tokens de usuarios reales.",
+      "access_status": "DOCUMENTED_NOT_TESTED",
+      "runtime_verified": false,
+      "benchmark_reproduced": false
+    },
+    {
+      "id": "S02",
+      "type": "security_or_law_primary",
+      "title": "Supabase RLS",
+      "url": "https://supabase.com/docs/guides/database/postgres/row-level-security",
+      "observed_on": "2026-11-13",
+      "scope": "Scope de SQL y user_metadata editable; sin DB configurada.",
+      "access_status": "DOCUMENTED_NOT_TESTED",
+      "runtime_verified": false,
+      "benchmark_reproduced": false
+    },
+    {
+      "id": "N01",
+      "type": "security_or_law_primary",
+      "title": "Anam overview",
+      "url": "https://anam.ai/docs/introduction/overview",
+      "observed_on": "2026-11-13",
+      "scope": "Presencia para agente existente y pipeline; sin sesión/plan/API test.",
+      "access_status": "DOCUMENTED_NOT_TESTED",
+      "runtime_verified": false,
+      "benchmark_reproduced": false
+    },
+    {
+      "id": "L01",
+      "type": "security_or_law_primary",
+      "title": "RGPD",
+      "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
+      "observed_on": "2026-11-13",
+      "scope": "Consulta selectiva, no dictamen universal.",
+      "access_status": "DOCUMENTED_NOT_TESTED",
+      "runtime_verified": false,
+      "benchmark_reproduced": false
+    },
+    {
+      "id": "L02",
+      "type": "security_or_law_primary",
+      "title": "AI Act",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj",
+      "observed_on": "2026-11-13",
+      "scope": "Uso/rol/fechas/clasificación a revalidar para implementación.",
+      "access_status": "DOCUMENTED_NOT_TESTED",
+      "runtime_verified": false,
+      "benchmark_reproduced": false
+    },
+    {
+      "id": "L03",
+      "type": "security_or_law_primary",
+      "title": "LSSI",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2002-13758",
+      "observed_on": "2026-11-13",
+      "scope": "Comunicaciones/propósito y oposición según caso, revisión humana.",
+      "access_status": "DOCUMENTED_NOT_TESTED",
+      "runtime_verified": false,
+      "benchmark_reproduced": false
+    },
+    {
+      "id": "D01",
+      "type": "domain_primary",
+      "title": "RGPD",
+      "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
+      "observed_on": "2026-11-13",
+      "scope": "Datos bancarios/empleados/clientes limitados a propósito y acceso.",
+      "access_status": "SELECTIVE_READ",
+      "runtime_verified": false,
+      "benchmark_reproduced": false
+    },
+    {
+      "id": "D02",
+      "type": "domain_primary",
+      "title": "AI Act",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj",
+      "observed_on": "2026-11-13",
+      "scope": "Clasificar uso real y responsabilidad; el nombre finanzas no autoriza decisiones significativas.",
+      "access_status": "SELECTIVE_READ",
+      "runtime_verified": false,
+      "benchmark_reproduced": false
+    },
+    {
+      "id": "R01",
+      "type": "repository",
+      "title": "frappe/erpnext",
+      "url": "https://github.com/frappe/erpnext/tree/649786f48b63c8edd6a674a92c409e50b126235a",
+      "observed_on": "2026-11-13",
+      "scope": "Metadatos y README selectivos por SHA; ver repositories.json; rama por defecto no es release aprobada.",
+      "access_status": "OBSERVED_REPOSITORY",
+      "runtime_verified": false,
+      "benchmark_reproduced": false
+    },
+    {
+      "id": "R02",
+      "type": "repository",
+      "title": "beancount/beancount",
+      "url": "https://github.com/beancount/beancount/tree/9747213802acb733ce53acc6e963f5961f47d6cd",
+      "observed_on": "2026-11-13",
+      "scope": "Metadatos y README selectivos por SHA; ver repositories.json; rama por defecto no es release aprobada.",
+      "access_status": "OBSERVED_REPOSITORY",
+      "runtime_verified": false,
+      "benchmark_reproduced": false
+    },
+    {
+      "id": "R03",
+      "type": "repository",
+      "title": "hledgerorg/hledger",
+      "url": "https://github.com/hledgerorg/hledger/tree/ce61d7e539eb4e90eb8eeecf66293c4c469d35ea",
+      "observed_on": "2026-11-13",
+      "scope": "Metadatos y README selectivos por SHA; ver repositories.json; rama por defecto no es release aprobada.",
+      "access_status": "OBSERVED_REPOSITORY",
+      "runtime_verified": false,
+      "benchmark_reproduced": false
+    },
+    {
+      "id": "R04",
+      "type": "repository",
+      "title": "Actualbudget/actual",
+      "url": "https://github.com/Actualbudget/actual/tree/f5f06896c228522d6f09ed8b43828d8dec5931f4",
+      "observed_on": "2026-11-13",
+      "scope": "Metadatos y README selectivos por SHA; ver repositories.json; rama por defecto no es release aprobada.",
+      "access_status": "OBSERVED_REPOSITORY",
+      "runtime_verified": false,
+      "benchmark_reproduced": false
+    },
+    {
+      "id": "R05",
+      "type": "repository",
+      "title": "metabase/metabase",
+      "url": "https://github.com/metabase/metabase/tree/d6833222251a31ccfe71d375b9302a9542135a3d",
+      "observed_on": "2026-11-13",
+      "scope": "Metadatos y README selectivos por SHA; ver repositories.json; rama por defecto no es release aprobada.",
+      "access_status": "OBSERVED_REPOSITORY",
+      "runtime_verified": false,
+      "benchmark_reproduced": false
+    }
+  ]
+}
