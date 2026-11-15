@@ -1,14 +1,14 @@
 # Finanzas — 42 campañas estructuradas
 
-**SCaffolds conceptuales, NO campañas granulares.** Preservados 42 IDs, 294 tareas y 84 gates originales. Ninguna implementación/test ejecutado. [Originales](../campaigns/README.md) · [PREP](../prep/README.md) · [Factory](../factory/00-README.md) · [Léxico](../factory/02-LEXICO.md) · [ADTC](../factory/03-TRACE-OBSERVABILITY.md) · [Finanzas](../factory/04-PRODUCTO-FINANZAS.md).
+**SCaffolds conceptuales, NO campañas granulares.** Preservados 42 IDs, 294 tareas y 84 gates originales. FIN-C01–C05 cuentan ya con código y tests locales ejecutados ([checkpoint](CHECKPOINT-C05.md)); FIN-C06–C42 siguen sin implementación. Los gates de campaña continúan sin ejecutarse. [Originales](../campaigns/README.md) · [PREP](../prep/README.md) · [Factory](../factory/00-README.md) · [Léxico](../factory/02-LEXICO.md) · [ADTC](../factory/03-TRACE-OBSERVABILITY.md) · [Finanzas](../factory/04-PRODUCTO-FINANZAS.md).
 
 | Campaña | Documento de preparación | Estado |
 |---|---|---|
-| FIN-C01 | [Baseline, fuentes y alcance](01-baseline-fuentes-y-alcance/README.md) | NOT_STARTED |
-| FIN-C02 | [Autoridad por dominio y contrato SaaS](02-autoridad-por-dominio-y-contrato-saas/README.md) | NOT_STARTED |
-| FIN-C03 | [Supabase JWT y principal](03-supabase-jwt-y-principal/README.md) | NOT_STARTED |
-| FIN-C04 | [Twins y nomenclatura canónica](04-twins-y-nomenclatura-canonica/README.md) | NOT_STARTED |
-| FIN-C05 | [DTOs, esquemas y errores](05-dtos-esquemas-y-errores/README.md) | NOT_STARTED |
+| FIN-C01 | [Baseline, fuentes y alcance](01-baseline-fuentes-y-alcance/README.md) | PARTIAL · código y tests locales |
+| FIN-C02 | [Autoridad por dominio y contrato SaaS](02-autoridad-por-dominio-y-contrato-saas/README.md) | PARTIAL · código y tests locales |
+| FIN-C03 | [Supabase JWT y principal](03-supabase-jwt-y-principal/README.md) | PARTIAL · código y tests locales |
+| FIN-C04 | [Twins y nomenclatura canónica](04-twins-y-nomenclatura-canonica/README.md) | PARTIAL · código y tests locales |
+| FIN-C05 | [DTOs, esquemas y errores](05-dtos-esquemas-y-errores/README.md) | PARTIAL · código y tests locales |
 | FIN-C06 | [Persistencia, RLS y migraciones](06-persistencia-rls-y-migraciones/README.md) | NOT_STARTED |
 | FIN-C07 | [Mandatos, finalidad y aprobaciones](07-mandatos-finalidad-y-aprobaciones/README.md) | NOT_STARTED |
 | FIN-C08 | [Secretos, discovery y aislamiento remoto](08-secretos-discovery-y-aislamiento-remoto/README.md) | NOT_STARTED |

@@ -1,7 +1,9 @@
 # Handoff reconciliado · agntia-finanzas
 
 2026-11-15. Punto de entrada para cualquier agente o auditor que continúe este repositorio.
-Sustituye en la práctica a `FreeBuff/` (no existía en el repo) y no reemplaza la documentación original.
+Complementa al plan de fábrica [HANDOFF-RECONCILIADO-42-CAMPANAS.md](HANDOFF-RECONCILIADO-42-CAMPANAS.md) y a `docs/factory/`; no reemplaza la documentación original. Durante la auditoría inicial `FreeBuff/` no existía: llegó a `main` en la misma fase junto con `docs/factory`, `docs/prep`, `docs/implementation` y `docs/execution-program`.
+
+Entregables de integración previstos como `FreeBuff/DOPPLER-READY.md` e `FreeBuff/INTEGRATION-AGENTE-PROPOSAL.md` se cubren en [docs/integration/DOPPLER.md](../docs/integration/DOPPLER.md) y [docs/integration/AGENTE-BRIDGE.md](../docs/integration/AGENTE-BRIDGE.md), con el mismo contenido y sin duplicar archivos.
 
 ## Identidad y alcance
 
