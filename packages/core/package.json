@@ -1,0 +1,16 @@
+{
+  "name": "@agntia-finanzas/core",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@agntia-finanzas/contracts": "workspace:*",
+    "decimal.js": "^10.4.3"
+  }
+}

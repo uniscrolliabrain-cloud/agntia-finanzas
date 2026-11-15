@@ -1,0 +1,24 @@
+{
+  "name": "agntia-finanzas",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Agntia Finanzas — middleware financiero (scaffolding C01-C05)",
+  "packageManager": "pnpm@10.34.9",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "typecheck": "pnpm -r --no-bail exec tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "check": "pnpm typecheck && pnpm test",
+    "dev:api": "pnpm --filter @agntia-finanzas/api dev"
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.5",
+    "tsx": "^4.19.2",
+    "typescript": "^5.6.3",
+    "vitest": "^2.1.4"
+  }
+}

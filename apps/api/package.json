@@ -1,0 +1,22 @@
+{
+  "name": "@agntia-finanzas/api",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/app.ts"
+  },
+  "scripts": {
+    "dev": "tsx src/server.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "jose": "^5.9.6"
+  },
+  "dependencies": {
+    "@agntia-finanzas/auth": "workspace:*",
+    "@agntia-finanzas/contracts": "workspace:*",
+    "@hono/node-server": "^1.13.7",
+    "hono": "^4.6.12"
+  }
+}
